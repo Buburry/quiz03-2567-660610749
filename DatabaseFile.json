@@ -7,25 +7,51 @@
     {
       "roomId": "HhVrDzdfsW-dS0YGOzrV3",
       "roomName": "261207 Tutorial"
-    }
-  ],
-  "messages": [
-    {
-      "roomId": "okhkUzffzCGMqtfC1uv6x",
-      "messageId": "Yi4K5qb-K8iMTgq_zwo0_",
-      "messageText": "Hi bro!"
     },
     {
-      "roomId": "okhkUzffzCGMqtfC1uv6x",
-      "messageId": "f8rM7yKv7FRLokgwU7wfg",
-      "messageText": "Hi everyone"
+      "roomId": "efAqDMlC6wv7mykSPN7Kf",
+      "roomName": {
+        "roomName": "Spoil One Piece"
+      }
     },
     {
-      "roomId": "HhVrDzdfsW-dS0YGOzrV3",
-      "messageId": "mBE0AghdK3uwb_yvX9n35",
-      "messageText": "Can anyone teach me RESTFul API?"
+      "roomId": "ynavFhXfR3qQjYcibcDSm",
+      "roomName": {
+        "roomName": "Spoil One Piece"
+      }
+    },
+    {
+      "roomId": "8ssT2Iy_8IxtPRiwLBm6W",
+      "roomName": {
+        "roomName": "Spoil One Piece"
+      }
+    },
+    {
+      "roomId": "Wyl0jbAEeaXD9CcXcEX9q",
+      "roomName": {
+        "roomName": "Spoil One Piece"
+      }
+    },
+    {
+      "roomId": "7ol1mtuoQCWStv6BsY55b",
+      "roomName": {
+        "roomName": "Spoil One Piece"
+      }
+    },
+    {
+      "roomId": "nZz8yYCslaTfGC8Yuwzut",
+      "roomName": {
+        "roomName": "Spoil One Piece"
+      }
+    },
+    {
+      "roomId": "NVZ1Kzacye6DhihdEai05",
+      "roomName": {
+        "roomName": "Spoil One Piece"
+      }
     }
   ],
+  "messages": [],
   "users": [
     {
       "username": "user1",
