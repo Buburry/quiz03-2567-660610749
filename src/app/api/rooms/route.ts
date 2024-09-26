@@ -1,4 +1,4 @@
-import { DB, Database, Room, User, readDB, writeDB } from "@lib/DB";
+import { DB, Room, readDB, writeDB } from "@lib/DB";
 import { checkToken } from "@lib/checkToken";
 //import { get } from "lodash";
 import { nanoid } from "nanoid";
@@ -25,13 +25,12 @@ export const POST = async (request: NextRequest) => {
     );
   }
 
-
    const body = await request.json();
    const roomName = body.roomName;
 
    readDB();
-   const foundroom = (<Room>DB).rooms.find(
-     (r:any) =>  r.roomName === roomName && r.roomId === roomId 
+   const foundroom = (DB as Room).rooms.find(
+     (r:any) =>  r.roomName === roomName //&& r.roomId === roomId 
    );
   if (foundroom) {
     return NextResponse.json(
